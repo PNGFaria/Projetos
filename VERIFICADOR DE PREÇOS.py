@@ -21,7 +21,7 @@ while True:
         #caso seja, o nome na variavel sera substituido por ele
     if preco > 1000:
         contp = contp + 1
-    #contador de quantos produtos custam mais que 1000
+    #contador de quantos produtos custam mais que 1000.
 
     parada = str(input('Deseja continuar? '))
     while parada not in 'sn':
