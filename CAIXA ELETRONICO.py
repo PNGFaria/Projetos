@@ -24,7 +24,7 @@ while True:
         elif ced == 10:
             ced = 1
 
-        #sempre que houver uma troca de valor da cedula, o total de cedulas sera zerado para que a quantidade seja compativel com o novo valor
+        #sempre que houver uma troca de valor da cedula, o total de cedulas sera zerado para que a quantidade seja compativel com o novo valor.
         totalced = 0
         if total == 0:
             break
