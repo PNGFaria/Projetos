@@ -8,16 +8,16 @@ while True:
     preco = float(input('Digite o preço do produto: '))
     cont = cont + 1
     soma = soma + preco
-    #neste primeiro bloco há um contador para parametro de preços mais altos e baixos junto com a variavel de soma
+    #neste primeiro bloco há um contador para parametro de preços mais altos e baixos junto com a variavel de soma.
 
     if cont == 1:
         baratop = preco
         baraton = nome
-        #aqui como é o primeiro produto, como indicado pelo contador, ele sera o mais barato
+        #aqui como é o primeiro produto, como indicado pelo contador, ele sera o mais barato.
     else:
         if preco < baratop:
             baraton = nome
-        #este else irá a partir do segundo produto, e ele irá verificar se seu preço é menor que o do produto mais barato
+        #este else irá a partir do segundo produto, e ele irá verificar se seu preço é menor que o do produto mais barato.
         #caso seja, o nome na variavel sera substituido por ele
     if preco > 1000:
         contp = contp + 1
