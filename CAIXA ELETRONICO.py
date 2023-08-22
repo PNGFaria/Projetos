@@ -10,7 +10,7 @@ while True:
     if total >= ced:
         total = total - ced
         totalced = totalced + 1
-        #este primeiro if irá fazer a contagem de notas pelo valor inputado pelo usuario, usando o valor da cedula inicial como parametro
+        #este primeiro if irá fazer a contagem de notas pelo valor inputado pelo usuario, usando o valor da cedula inicial como parametro.
 
     else:
         if totalced > 0:
